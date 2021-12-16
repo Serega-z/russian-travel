@@ -1,0 +1,7 @@
+.places__url {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  border-bottom: 1px solid #fff;
+  line-height: 1rem;
+}

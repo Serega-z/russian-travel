@@ -1,0 +1,21 @@
+.places__image-container {
+  grid-column: 1;
+  grid-row: 2/5;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__image-container {
+    margin: 0;
+    height: 96%;
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__image-container {
+    grid-row: 3;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1.75rem;
+  }
+}

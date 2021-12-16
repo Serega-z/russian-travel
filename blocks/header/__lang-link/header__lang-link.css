@@ -1,0 +1,11 @@
+.header__lang-link {
+  font-size: 1.5rem;
+  margin: 2.25rem auto;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 1.125rem;
+    margin: 1.875rem auto;
+  }
+}

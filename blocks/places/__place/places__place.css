@@ -1,0 +1,29 @@
+.places__place {
+  margin: 0.875rem auto;
+  display: grid;
+  max-width: 984px;
+  grid-template-columns: 28.75rem 1fr;
+  grid-template-rows: repeat(3, min-content);
+  grid-column-gap: 2.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    grid-column-gap: 0.8125rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    grid-template-columns: 22.125rem 1fr;
+    margin: 0.75rem auto 3.25rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, min-content);
+    margin: 0.75rem auto 3.375rem;
+  }
+}

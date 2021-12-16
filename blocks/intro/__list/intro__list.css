@@ -1,0 +1,13 @@
+.intro__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 1.875rem auto 0;
+  font-size: 0.73em;
+  line-height: 1.125rem;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    margin: 2.125rem auto 2.375rem;
+  }
+}
