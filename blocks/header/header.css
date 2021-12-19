@@ -3,13 +3,12 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 2.875rem 0 1rem;
+  padding: 1.75rem 0 1rem;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
     width: 90.75%;
-    padding-top: 0;
   }
 }
 
@@ -20,8 +19,8 @@
 }
 
 @media screen and (max-width: 320px) {
-    .header {
-      width: 90%;
-      padding-top: 0;
-    }
+  .header {
+    width: 90%;
+    padding-top: 0;
   }
+}

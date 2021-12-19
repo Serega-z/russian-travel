@@ -5,3 +5,9 @@
   border-bottom: 1px solid #fff;
   line-height: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .places__url {
+    font-size: 2.35vw;
+  }
+}

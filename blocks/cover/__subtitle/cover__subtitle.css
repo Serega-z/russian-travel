@@ -1,6 +1,7 @@
 .cover__subtitle {
   max-width: 22.5rem;
-  margin: 0 auto 15.25rem;
+  /* margin: 2rem auto 15.25rem; */
+  margin: 2rem auto 0;
   text-align: center;
   font-size: 1.125rem;
   line-height: 1.375rem;
@@ -12,13 +13,16 @@
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    margin: 12.125rem auto;
+    font-size: 1.75vw;
+    line-height: 2.2vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    margin: 7.125rem auto;
+    margin: 4.5vw auto 0;
+    font-size: 2.35vw;
+    line-height: 3vw;
   }
 }
 
@@ -26,6 +30,6 @@
   .cover__subtitle {
     font-size: 0.875rem;
     line-height: 1rem;
-    margin: 0 2rem 2.375rem;
+    margin: 1rem auto 2.375rem;
   }
 }

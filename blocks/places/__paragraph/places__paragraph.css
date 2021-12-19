@@ -11,9 +11,22 @@
   }
 }
 
+@media screen and (max-width: 460px) {
+  .places__paragraph {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .places__paragraph {
+    font-size: 0.75em;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__paragraph {
     grid-column: 1;
     margin: 0 0.9375rem 1.5625rem;
+    font-size: 1em;
   }
 }

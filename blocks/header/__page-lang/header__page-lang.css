@@ -3,12 +3,18 @@
   list-style-type: none;
   grid-template-columns: repeat(2, min-content);
   grid-column-gap: 1.125rem;
-  padding-top: 0.875rem;
+  padding-top: 1.125rem;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header__page-lang {
+    padding-top: 1.125rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .header__page-lang {
-    padding-top: 0;
+    padding-top: 2rem;
   }
 }

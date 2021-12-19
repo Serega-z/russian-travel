@@ -7,6 +7,13 @@
   grid-column-gap: 1.125rem;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__links {
+    font-size: 2.175vw;
+    grid-column-gap: 2.25vw;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__links {
     grid-template-columns: min-content;
