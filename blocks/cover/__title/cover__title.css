@@ -1,6 +1,7 @@
 .cover__title {
   text-align: center;
   font-size: 4.5rem;
+  font-weight: 900;
   line-height: 4.75rem;
   max-width: 35rem;
   grid-row: 1;

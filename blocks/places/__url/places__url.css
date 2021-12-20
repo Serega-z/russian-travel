@@ -11,3 +11,9 @@
     font-size: 2.35vw;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places__url {
+    font-size: 5.55vw;
+  }
+}

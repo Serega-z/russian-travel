@@ -1,5 +1,6 @@
 .places__title {
   font-size: 4.5rem;
+  font-weight: 900;
   line-height: 4.75rem;
   margin: 3.875rem 0 3.025rem;
   grid-row: 1;
@@ -9,12 +10,12 @@
 @media screen and (max-width: 1024px) {
   .places__title {
     margin: 3.3125rem 0 3.025rem;
+    font-size: 7.15vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__title {
-    word-spacing: 2rem;
     font-size: 5.5vw;
     line-height: 5.85vw;
     margin: 0 0 3rem;
